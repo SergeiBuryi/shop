@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://sergeiburyi.github.io/shop",
   "scripts": {
-    "start": "npm run start",
-    "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d dist",
+    "qwe": "npm start",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
