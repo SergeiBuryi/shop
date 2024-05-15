@@ -4,12 +4,12 @@
     "noImplicitAny": true,
     "module": "ESNext",
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
-    "baseUrl": ".",
+//    "baseUrl": ".",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
   },
   "ts-node": {
     "compilerOptions": {
