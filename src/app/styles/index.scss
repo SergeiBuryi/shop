@@ -1,6 +1,6 @@
 @import "reset";
 @import "variables/global";
-@import "themes/normal";
+@import "themes/light";
 @import "themes/dark";
 
 .app {
@@ -8,4 +8,6 @@
   background: var(--bg-color);
   color: var(--primary-color);
   min-height: 100vh;
+  margin-left: 227px;
+  margin-right: 253px;
 }

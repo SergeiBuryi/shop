@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sergeiburyi.github.io/shop/",
   "scripts": {
     "start": "webpack serve --env port=8000",
     "build:dev": "webpack --env mode=development",
-    "build:prod": "webpack --env mode=production"
+    "build:prod": "webpack --env mode=production",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +32,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1"

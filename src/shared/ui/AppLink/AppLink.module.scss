@@ -1,0 +1,19 @@
+.AppLink {
+    margin-top: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #636363;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.primary {
+    color: #636363;
+}
+
+.secondary {
+    color: blue;
+}
