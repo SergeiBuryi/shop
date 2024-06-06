@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[529],{529:(e,n,c)=>{c.r(n),c.d(n,{default:()=>s});var t=c(848);const s=function(){return(0,t.jsx)("div",{children:"Корзина"})}}}]);
