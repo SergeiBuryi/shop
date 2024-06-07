@@ -1,24 +1,24 @@
 import {RouteProps} from "react-router-dom";
-import {MainPage} from "pages/MainPage";
+import {HomePage} from "pages/HomePage";
 import {FavoritesPage} from "pages/FavoritesPage";
 import {CartPage} from "pages/CartPage";
 
 export enum AppRoutes {
-    MAIN = 'main',
+    HOME = 'home',
     FAVORITES = 'favorites',
     CART = 'cart',
 }
 
 export const RoutePath: Record<AppRoutes, string> = {
-    [AppRoutes.MAIN]: '/',
+    [AppRoutes.HOME]: '/',
     [AppRoutes.FAVORITES]: '/favorites',
     [AppRoutes.CART]: '/cart',
 }
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {
-    [AppRoutes.MAIN]: {
-        path: RoutePath[AppRoutes.MAIN],
-        element: <MainPage />
+    [AppRoutes.HOME]: {
+        path: RoutePath[AppRoutes.HOME],
+        element: <HomePage />
     },
     [AppRoutes.FAVORITES]: {
         path: RoutePath[AppRoutes.FAVORITES],

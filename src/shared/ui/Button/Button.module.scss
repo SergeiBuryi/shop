@@ -1,0 +1,37 @@
+.Button {
+    cursor: pointer;
+    .icon {
+        display: inline-flex;
+        width: auto;
+        height: auto;
+        margin-right: 8px;
+    }
+    &.clear {
+        padding: 0;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    &.green {
+        border-radius: 10px;
+        width: 129px;
+        height: 51px;
+        background: #26b087;
+        border: none;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+    }
+    &.gray {
+        border-radius: 10px;
+        width: 145px;
+        height: 51px;
+        background: #f0f0f0;
+        border: none;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #636363;
+    }
+}

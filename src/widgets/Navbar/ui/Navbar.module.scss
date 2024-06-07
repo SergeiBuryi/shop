@@ -1,14 +1,38 @@
 .Navbar {
-  height: var(--navbar-height);
-  padding-top: 24px;
-  background-color: rgb(4, 173, 123);
-  .links {
+  height: fit-content;
+  margin-top: 24px;
+  .content_heading {
     display: flex;
-    flex-direction: row;
-    .link {
+    background-color: gray;
+  }
+  .content_body {
+    margin-top: 24px;
+    display: flex;
+    height: fit-content;
+    .logo {
+      width: fit-content;
+      height: 51px;
+      margin-right: 16px;
+    }
+    .catalog {
+      height: fit-content;
+      margin-right: 16px;
+    }
+    .comparison {
+      height: fit-content;
+      margin-right: 16px;
+    }
+    .links {
+      padding-top: 7px;
       display: flex;
-      flex-direction: column;
-      margin-right: 24px;
+      height: 47px;
+      .link {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 24px;
+      }
     }
   }
 }

@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 
 const FavoritesPage = () => {
+    const {t} = useTranslation('favorites');
     return (
         <div>
-            Favorites
+            {t('favorites')}
         </div>
     );
 };
