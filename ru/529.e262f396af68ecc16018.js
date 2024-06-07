@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[529],{529:(t,c,e)=>{e.r(c),e.d(c,{default:()=>a});var n=e(848),r=e(389);const a=function(){var t=(0,r.Bd)("cart").t;return(0,n.jsx)("div",{children:t("cart")})}}}]);
